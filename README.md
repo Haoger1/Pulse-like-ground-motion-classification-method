@@ -1,6 +1,6 @@
 # Pulse-like-ground-motion-classification-method
 
-This is the algorithm for the paper entitled "A new method for the identification and classification of pulse-like ground motions". This algorithm can identify and classify different pulse-like ground motion according ot identified pulse number, e,g., single pulse-like ground motion, multiple pulse-like ground motion, etc. The method is keeping improved and debugged even after article acceptance. Please read the paper for more details.
+This is the algorithm for the paper entitled "A new method for the identification and classification of pulse-like ground motions". This algorithm can identify and classify different pulse-like ground motion according to identified pulse number, e,g., single pulse-like ground motion, multiple pulse-like ground motion, etc. The method is keeping improved and debugged even after article acceptance. Please read the paper for more details.
 
 ## Disclaimer
 This algorithm is distributed under the GNU General Public License v3.0. Please refer to the LICENSE file for details.
