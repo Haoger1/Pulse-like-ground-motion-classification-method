@@ -51,7 +51,7 @@ clear; clc;
 
 load('SWresults.mat');  % This file should contain the variable SWresults.
 
-results = classifyPulseLikeGM(SWresults, true);
+results = classifyPulselikeGM(SWresults, true);
 
 disp(struct2table(results));
 ```
@@ -107,7 +107,7 @@ This code requires MATLAB and the Signal Processing Toolbox, because the functio
 
 The classification algorithm assumes that the SWD results have already been obtained. This repository does not perform the SWD decomposition itself; it only identifies and classifies pulse-like ground motions based on the decomposed SW components stored in `SWresults`.
 
-If your data use `NaN` instead of `0` to pad unused rows in Column 3, please modify the corresponding line in `classifyPulseLikeGM.m` accordingly.
+If your data use `NaN` instead of `0` to pad unused rows in Column 3, please modify the corresponding line in `classifyPulselikeGM.m` accordingly.
 
 ## Citation
 
