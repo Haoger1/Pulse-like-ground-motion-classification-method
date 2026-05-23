@@ -49,7 +49,7 @@ Put `classifyPulseLikeGM.m`, `classifyPulseLikeGM_example_run.m`, and your `SWre
 ```matlab
 clear; clc;
 
-load('sample_SWresults.mat');  % This file should contain the variable SWresults.
+load('SWresults.mat');  % This file should contain the variable SWresults.
 
 results = classifyPulseLikeGM(SWresults, true);
 
