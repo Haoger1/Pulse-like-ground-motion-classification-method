@@ -71,7 +71,7 @@ Users can also directly run the example script:
 classifyPulseLikeGM_example_run
 ```
 
-This script loads the example `SWresults` data, calls the main classification function, and displays the classification results.
+This script loads the example `SWresults_sample` data, calls the main classification function, and displays the classification results.
 
 ### Output
 
