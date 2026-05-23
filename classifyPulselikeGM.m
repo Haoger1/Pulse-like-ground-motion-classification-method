@@ -1,4 +1,4 @@
-function results = classifyPulseLikeGM(SWresults, displayFlag)
+function results = classifyPulselikeGM(SWresults, displayFlag)
 %CLASSIFYPULSELIKEGM Identify and classify pulse-like ground motions.
 %
 % Description:
