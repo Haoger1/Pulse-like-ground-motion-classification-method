@@ -16,12 +16,12 @@ Before using this classification algorithm, users should first apply the **Shock
 This repository contains two main MATLAB files:
 
 ```text
-classifyPulseLikeGM.m
-classifyPulseLikeGM_example_run.m
+classifyPulselikeGM.m
+classifyPulselikeGM_example_run.m
 ```
 
-- `classifyPulseLikeGM.m` is the main classification function.
-- `classifyPulseLikeGM_example_run.m` is an example script showing how to call the function.
+- `classifyPulselikeGM.m` is the main classification function.
+- `classifyPulselikeGM_example_run.m` is an example script showing how to call the function.
 
 ### Input data
 
@@ -44,7 +44,7 @@ For Column 3, each valid row corresponds to one decomposed SW component. Therefo
 
 ### Basic usage
 
-Put `classifyPulseLikeGM.m`, `classifyPulseLikeGM_example_run.m`, and your `SWresults` data file in the same folder. Then open MATLAB and run:
+Put `classifyPulselikeGM.m`, `classifyPulselikeGM_example_run.m`, and your `SWresults` data file in the same folder. Then open MATLAB and run:
 
 ```matlab
 clear; clc;
@@ -59,8 +59,8 @@ disp(struct2table(results));
 The second input argument controls whether the classification information is displayed in the MATLAB Command Window:
 
 ```matlab
-results = classifyPulseLikeGM(SWresults, true);   % Display classification messages
-results = classifyPulseLikeGM(SWresults, false);  % Do not display classification messages
+results = classifyPulselikeGM(SWresults, true);   % Display classification messages
+results = classifyPulselikeGM(SWresults, false);  % Do not display classification messages
 ```
 
 ### Example script
@@ -68,7 +68,7 @@ results = classifyPulseLikeGM(SWresults, false);  % Do not display classificatio
 Users can also directly run the example script:
 
 ```matlab
-classifyPulseLikeGM_example_run
+classifyPulselikeGM_example_run
 ```
 
 This script loads the example `SWresults_sample` data, calls the main classification function, and displays the classification results.
